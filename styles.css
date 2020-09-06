@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*                  <!--FONT   -->              */
+body{
+    font-family: 'Syne', sans-serif;
+    color: #3A0CA3;
+
+
+}
+/*                  <!-- COLORS-->              */
+/*
+https://coolors.co/f72585-7209b7-3a0ca3-4361ee-4cc9f0
+F72585  FUCSIA
+7209B7  VIOLETA
+3A0CA3  AZUL OSCURO
+4361EE  AZUL CLARO
+4CC9F0  TURQUESA
+*/
+
+/*                  <!--CSS    -->              */
+
+.header::after{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    display: block;
+    background-image: url(../img/pexels-cod.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    transition: all 1000ms;
+}
+
+.header-content{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    margin-top: 90px;
+    left: 32%;
+    text-align: center;
+    width: 500px;
+    transition: all 1000ms;
+}
+
+.text1{
+    color: white;
+}
+
+/*                  <!--FONDO  -->              */
